@@ -1,0 +1,16 @@
+{
+  "name": "5x1-docs",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://docs.5x1.com",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.41.10",
+    "astro": "^7.1.6",
+    "sharp": "^0.35.3"
+  }
+}

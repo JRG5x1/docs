@@ -1,0 +1,28 @@
+/* 5x1.com colours (from 5x1.com/styles.css) */
+:root {
+	--sl-color-accent-low: #0e2a1c;
+	--sl-color-accent: #29d780;
+	--sl-color-accent-high: #b9f5d6;
+	--sl-color-white: #eef1ec;
+	--sl-color-gray-1: #dfe5e0;
+	--sl-color-gray-2: #b0bbb2;
+	--sl-color-gray-3: #8b968d;
+	--sl-color-gray-4: #4f5a52;
+	--sl-color-gray-5: #303b33;
+	--sl-color-gray-6: #161c18;
+	--sl-color-black: #111513;
+}
+:root[data-theme='light'] {
+	--sl-color-accent-low: #c9f3dc;
+	--sl-color-accent: #0f8a4f;
+	--sl-color-accent-high: #0b4f2e;
+	--sl-color-white: #111513;
+	--sl-color-gray-1: #161c18;
+	--sl-color-gray-2: #303b33;
+	--sl-color-gray-3: #4f5a52;
+	--sl-color-gray-4: #8b968d;
+	--sl-color-gray-5: #c5cec7;
+	--sl-color-gray-6: #eef1ec;
+	--sl-color-gray-7: #f6f8f6;
+	--sl-color-black: #ffffff;
+}

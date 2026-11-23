@@ -1,0 +1,8 @@
+{
+  "name": "Hello Jibo",
+  "version": "1.0.0",
+  "supported": "3.2.0",
+  "type": "skill",
+  "buttonColor": "#29D780 #0F6B3D",
+  "phrases": ["say hello world"]
+}

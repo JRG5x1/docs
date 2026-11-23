@@ -1,0 +1,7 @@
+{
+  "name": "@be/hello-jibo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "config": { "standalone": true },
+  "jibo": { "main": "index.html", "type": "asset-pack", "display-name": "hello-jibo", "prompt": "Hello Jibo" }
+}

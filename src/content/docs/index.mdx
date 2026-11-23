@@ -1,0 +1,45 @@
+---
+title: 5x1 Developers
+description: Build skills and themes for Jibo on 5x1, test them on your robot, and share them in the 5x1 Store.
+template: splash
+hero:
+  tagline: Build skills and themes for Jibo, test them on your own robot, and share them with every 5x1 owner.
+  image:
+    file: ../../assets/hello-on-robot.png
+  actions:
+    - text: Make your first skill
+      link: /skills/first-skill/
+      icon: right-arrow
+    - text: Make a theme
+      link: /themes/first-theme/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Skills" icon="puzzle">
+		JavaScript apps that run on Jibo: their own screen, buttons, speech, animations, launch phrases,
+		settings, camera and more. [Start here](/skills/first-skill/).
+	</Card>
+	<Card title="Themes" icon="pencil">
+		Change Jibo's eye (even in 3D), his menus, icons, animation art and sounds with just images and
+		JSON. [Start here](/themes/first-theme/).
+	</Card>
+	<Card title="Install and test" icon="laptop">
+		Upload a ZIP from BEacon, Jibo's web app, or from a script, then debug it live.
+		[How](/testing/install-and-test/).
+	</Card>
+	<Card title="Publish" icon="rocket">
+		Put it on GitHub, make a release, and open a pull request to list it in the 5x1 Store.
+		[How](/themes/publishing/).
+	</Card>
+</CardGrid>
+
+## What you need
+
+- A Jibo on [5x1](https://5x1.com) running 3.2.0 or newer. New to 5x1? The [setup guide](https://jibo.guide) gets your robot connected.
+- A computer on the same network as Jibo, a text editor, and a way to make ZIP files.
+- For skills: some JavaScript. For themes: some image editing.
+
+Everything here is free, and you don't need an account anywhere to build and test on your own robot.
