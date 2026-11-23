@@ -11,7 +11,7 @@ export default defineConfig({
 			favicon: '/logo.svg',
 			customCss: ['./src/styles/5x1.css'],
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/JRG5x1' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/Jibo-Revival-Group' },
 				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/CBVJzkRGwN' },
 			],
 			editLink: { baseUrl: 'https://github.com/JRG5x1/docs/edit/main/' },
